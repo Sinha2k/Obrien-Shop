@@ -1,0 +1,114 @@
+.header_page{
+    width: 100%;
+    height: 34vh;
+    background-image: url("../../image/bg.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow-x: hidden;
+}
+.layout{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #f3f3f3;
+    opacity: 0.5;
+}
+.header_page h5{
+    margin-top: 0;
+    font-size: 2rem;
+    z-index: 1;
+    color: rgb(41, 41, 41);
+    text-align: center;
+    font-weight: 700;
+}
+.header_page a{
+    text-decoration: none;
+    color: rgb(41, 41, 41);
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.header_page a:hover{
+    color: #e98c81;
+}
+.header_page ul{
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: center;
+    font-size: 1.2rem;
+    margin-top: -2rem;
+    z-index: 1;
+}
+.header_page ul > li{
+    margin-right: 1.2rem;
+    color: rgb(41, 41, 41);
+    margin-left: -10px;
+}
+
+
+.login_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    margin-left: 35%;
+    background-color: #f3f3f3;
+    margin-top: 4rem;
+}
+.login_form .button{
+    color: white;
+    box-shadow: 0px 0px 0px 0px white;
+    border-radius: 30px;
+    margin-top: 1rem;
+    padding-top: 10px;
+    border: 1px solid #e98c81;
+}
+.login_form .button:hover{
+    color: black;
+    background-color: rgb(218, 218, 218);
+    box-shadow: 0px 0px 0px 0px white;
+    border: 1px solid #d3d3d3;
+}
+.remember{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.remember p{
+    cursor: pointer;
+}
+.remember p:hover{
+    color: #e98c81;
+}
+.remember .checkbox{
+    outline: none;
+    color: #d3d3d3;
+}
+.login_form h5{
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+.input{
+    width: 90%;
+    background-color: white;
+    margin-top: 2rem;
+    outline: none;
+}
+.create_account{
+    text-decoration: none;
+    color: black;
+    margin-top: 1rem;
+    padding-bottom: 2rem;
+    transition: 0.5s;
+}
+.create_account:hover{
+    color: #e98c81;
+}

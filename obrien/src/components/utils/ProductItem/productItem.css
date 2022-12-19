@@ -1,0 +1,197 @@
+.rating span{
+    font-size: 16px;
+    margin-right: 5px;
+}
+.rating  .fa-star,.fa-star-half-o{
+    color: #e98c81;
+}
+.rating .fa-star-o{
+    color: gray;
+}
+.product_card{
+    width: 250px;
+    background-color: #f3f3f3;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    position: relative;
+}
+.product_card .sale_branch {
+    position: absolute;
+    font-size: 0.8rem;
+    background-color: rgb(43, 43, 43);
+    width: max-content;
+    padding: 2px 4px 2px 4px;
+    margin-right: -30px;
+    color: white;
+    margin-top: 0;
+    top: 1.5rem;
+    left: 1.5rem;
+    margin-right: 0;
+    margin-left: 0;
+}
+.recent_product .sale_branch {
+    position: absolute;
+    font-size: 0.45rem;
+    background-color: rgb(43, 43, 43);
+    width: max-content;
+    padding: 1px 2px 1px 2px;
+    margin-right: -30px;
+    color: white;
+    margin-top: 0;
+    top: 0.5rem;
+    left: 0.5rem;
+    margin-right: 0;
+    margin-left: 0;
+}
+.card_list{
+    width: 100%;
+    background-color: #f3f3f3;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    justify-content: center;
+}
+.product_card:hover{
+    box-shadow: 0px 0px 6px 6px rgba(0,0,0,0.1);
+    transform: translateY(-10px);
+}
+.product_card img{
+    width: 100%;
+    height: 250px;
+}
+.card_list img{
+    width: 40%;
+}
+.card_list .card_content{
+    width: 60%;
+}
+.product_card h5{
+    font-size: 1.2rem;
+    margin-top: 7px;
+}
+.card_list h5{
+    font-size: 1.5rem;
+    margin-top: 7px;
+    margin-bottom: 0;
+}
+.product_card .description p:hover{
+    color: black;
+}
+.product_card  .card_content{
+    padding: 0 30px 0 30px;
+}
+.product_card .card_content p{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left: 0;
+    padding-top: 7px;
+    transition: 1s;
+}
+.card_list .card_content .price{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 3px;
+}
+.product_card .icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    margin-top: -36px;
+    padding-bottom: 20px;
+    z-index: 1;
+}
+.card_list .icons{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 50%;
+    margin-top: 5px;
+}
+.card_list .icons .fa{
+    margin-right: 20px;
+}
+.product_card:hover .card_content .price{
+    opacity: 0;
+}
+.card_list:hover .card_content .price{
+    opacity: 1;
+}
+.product_card .icons .fa-shopping-bag{
+    opacity: 0;
+    transition: 0.6s ease-out;
+    transform: translateX(-5px);
+}
+.product_card .icons .fa-heart-o{
+    opacity: 0;
+    transition: 1.6s ease-out;
+    transform: translateX(-5px);
+}
+.product_card .icons .fa-eye{
+    opacity: 0;
+    transition: 2.6s ease-out;
+    transform: translateX(-5px);
+}
+.product_card:hover .icons .fa-shopping-bag{
+    opacity: 1;
+    transform: translateX(0px);
+}
+.product_card:hover .icons .fa-heart-o{
+    opacity: 1;
+    transform: translateX(0px);
+}
+.product_card:hover .icons .fa-eye{
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+.card_list .icons .fa-shopping-bag{
+    opacity: 1;
+    transform: translateX(0px);
+}
+.card_list .icons .fa-heart-o{
+    opacity: 1;
+    transform: translateX(0px);
+}
+.card_list .icons .fa-eye{
+    opacity: 1;
+    transform: translateX(0px);
+}
+.card_list:hover .icons .fa-shopping-bag{
+    opacity: 1;
+}
+.card_list:hover .icons .fa-heart-o{
+    opacity: 1;
+}
+.card_list:hover .icons .fa-eye{
+    opacity: 1;
+}
+
+.recent_product{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.7rem;
+    cursor: pointer;
+    position: relative;
+}
+.recent_product img{
+    width: 26%; 
+}
+.recent_product .card_content{
+    margin-left: 10px;
+}
+.recent_product .card_content h5{
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+.recent_product .card_content p{
+    font-size: 0.8rem;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.recent_product .card_content p:hover{
+    color: black;
+}
+@import url("../BlogItem/blogItem.css");

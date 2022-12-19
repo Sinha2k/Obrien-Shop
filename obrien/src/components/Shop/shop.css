@@ -1,0 +1,104 @@
+.shop_page{
+    width: 86%;
+    margin-left: 7%;
+    display: flex;
+    text-align: left;
+    margin-top: 4rem;
+}
+.shop_page p{
+    cursor: pointer;
+}
+.shop_page p:hover{
+    color: #e98c81;
+}
+.left_sidebar{
+    width: 25%;
+}
+.left_sidebar .line{
+    width: 50%;
+    height: 1px;
+    background-color: rgb(155, 155, 155);
+}
+.left_sidebar h5{
+    font-size: 1.5rem;
+    color: rgb(56, 56, 56);
+    margin-bottom: 10px;
+}
+.left_sidebar h5:first-child{
+    margin-top: 0;
+}
+.search_field{
+    margin-top: 1.5rem;
+    width: 90%;
+    height: fit-content;
+    position: relative;
+}
+.search_field input{
+    width: 100%;
+}
+.search_field .fa-search{
+    background: black;
+    height: 100%;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.shop_list{
+    width: 70%;
+    margin-left: 5%;
+    height: fit-content;
+}
+.shop_list .nav_option{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(223, 223, 223);
+    border-radius: 4px;
+    position: relative;
+}
+.shop_list .nav_option .fa{
+    margin-left: 2.2rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 5px;
+}
+.shop_list .nav_option .fa.active{
+    border-radius: 1px;
+    border: 1px solid rgb(49, 49, 49);
+    padding: 5px;
+}
+.fruits_grid{
+    padding-top: 2rem;
+    margin: auto;
+    width: 100%;
+    display: grid;
+    justify-items: center;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+    grid-template-columns: repeat(auto-fill,minmax(220px,1fr));
+}
+.fruits_list{
+    padding-top: 2rem;
+    width: 100%;
+}
+.recent_list{
+    width: 100%;
+    margin-top: 2rem;
+}
+.results p{
+    color: rgb(66, 66, 66);
+    cursor: text;
+    margin-right: 1rem;
+}
+.results p:hover{
+    color: rgb(66, 66, 66);
+}

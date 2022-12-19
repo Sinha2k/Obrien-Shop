@@ -1,0 +1,235 @@
+.slider1{
+    background-image: url("../image/slide1.jpg");
+    height: 90vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.slider2{
+    background-image: url("../image/slide2.jpg");
+    height: 90vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.slider{
+    text-align: left;
+}
+.slider h4{
+    margin-top: 12%;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-left: 7%;
+    margin-bottom: -20px;
+    font-family: 'Oswald', sans-serif;
+    opacity: 0;
+}
+.slider h1{
+    font-size: 4rem;
+    opacity: 0;
+    margin-left: 7%;
+    font-family: 'Oswald', sans-serif;
+    opacity: 0;
+}
+.action h4 {
+    animation-name: left_scale;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+}
+.action h1 {
+    animation-name: up;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+}
+.action h2 {
+    animation-name: up;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+}
+.slider h2{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: white;
+    margin-left: 7%;
+    background: black;
+    width: fit-content;
+    border-radius: 24px;
+    height: fit-content;
+    padding: 8px 20px 8px 20px;
+    cursor: pointer;
+    opacity: 0;
+    font-family: 'Oswald', sans-serif;
+}
+.slider h2:hover{
+    background: #e98c81;
+    transition: 0.5s;
+}
+
+@keyframes up{
+    0%{
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+@keyframes left_scale{
+    0%{
+        transform: translateX(20px);
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    50%{
+        transform: translateX(-10px);
+        opacity: 1;
+        transform: scale(1.1);
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+.btn_arrow{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 48%;
+    margin-left: 5%;
+}
+.btn_arrow .fa{
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: white;
+    border-radius: 50%;
+    background-color: rgb(197, 197, 197);
+    padding: 1.3rem 1.5rem 1.3rem 1.5rem;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+.btn_arrow .fa:hover{
+    background-color: #e98c81;
+    opacity: 1;
+}
+.slider_banner{
+    position: relative;
+    overflow-x: hidden;
+}
+.important{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    margin-top: 4rem;
+    width: 90%;
+    margin-left: 5%;
+}
+.important img{
+    width: 48%;
+}
+.important_content{
+    width: 48%;
+}
+.important_content h2{
+    font-size: 2.5rem;
+}
+.best_sale{
+    margin-top: 4rem;
+    width: 90%;
+    margin-left: 5%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.best_sale h4{
+    font-size: 2rem;
+    font-weight: 500;
+}
+.best_sale p{
+    font-size: 1.2rem;
+    font-weight: 300;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: -2rem;
+}
+.fruits_sale{
+    padding-top: 2rem;
+    margin: auto;
+    width: 100%;
+    display: grid;
+    justify-items: center;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+}
+.flash_deal{
+    margin-top: 4rem;
+    width: 100%;
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.flash_deal .deal_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.flash_deal img{
+    
+}
+.flash_deal h2{
+    font-size: 2.5rem;
+    color: rgb(29, 29, 29);
+}
+.flash_deal h4{
+    font-size: 2rem;
+    color: rgb(29, 29, 29);
+    margin-top: 0px;
+}
+.flash_deal h5{
+    font-size: 1.1rem;
+    padding: 7px 22px 7px 22px;
+    background-color: #e98c81;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    margin-top: 0px;
+    transition: 0.5s;
+}
+.flash_deal h5:hover{
+    background-color: rgb(197, 197, 197);
+    color: rgb(29, 29, 29);
+}
+.banner{
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+.banner_item{
+    width: 31%;
+    cursor: pointer;
+    overflow: hidden;
+}
+.banner_item img{
+    width: 100%;
+    transition: 0.5s ease-in-out;
+}
+.banner_item:hover img{
+    transform: scale(1.1);
+}
+.blog{
+    width: 100%;
+    margin-top: 2rem;
+}

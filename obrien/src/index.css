@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+a{
+  color: black;
+  text-decoration:none;
+}
+@import url("./components/Navbar/navbar.css");
+@import url("./components//Homepage/homePage.css");
+@import url("./components/utils/ProductItem/productItem.css");
+@import url("./components/Footer/footer.css");
+@import url("./components/Auth/Login/login.css");
+@import url("./components/Shop/shop.css");
+@import url("./components/ProductDetail/productDetail.css");
+@import url("./components/BlogDetails/blogDetails.css");
+@import url("./components/Cart/cart.css");
+@import url("./components/MyAccount/myAccount.css");
+@import url("./components/utils/Loading/loading.css");
+@import url("./components/utils/NotFound/notFound.css");
